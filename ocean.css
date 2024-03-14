@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(118, 135, 152);
+    scroll-behavior: smooth;
+}
+.head{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(140, 151, 158, 0.799);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+
+}
+.about{
+    font-size: 20px;
+    text-align: left;
+    align-items: center;
+    color: rgb(0, 0, 0);
+
+}
+.about h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+
+.hd{
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+    padding-top: 50px;
+}
+.m0{
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+    padding-top: 50px;
+
+}
+.n1{
+    margin-left: 600px;
+    border-radius: 50%;
+}
+.n1:hover{
+    transform: scale(1.2);
+    border-radius: 50%;
+    transition: all 2s ease-out;
+}
+
+
+.m1{
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+    padding-top: 50px;
+
+}
+.l1{
+    margin-left: 600px;
+    border-radius: 50%;
+}
+.l1:hover{
+    transform: scale(1.2);
+    border-radius: 50%;
+    transition: all 2s ease-out;
+    
+}
+
+.m2{
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+    padding-top: 50px;
+
+}
+.a1{
+    margin-left: 600px;
+    border-radius: 50%;
+}
+.a1:hover{
+    transform: scale(1.2);
+    border-radius: 50%;
+    transition: all 2s ease-out;
+}
+
+.m3{
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+    padding-top: 50px;
+
+}
+.b1{
+    margin-left: 600px;
+    border-radius: 50%;
+}
+.b1:hover{
+    transform: scale(1.2);
+    border-radius: 50%;
+    transition: all 2s ease-out;
+}
+
+.head img{
+     width: 50px;
+     height: 50px;
+    }
+    .head ul{
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        position: absolute;
+        right: 10px;
+
+    }
+    .head ul:hover a{
+        color: black;
+    }
+    .head a{
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        
+    }
+    .head li:hover a{
+        color: rgb(255, 208, 54);
+    }
